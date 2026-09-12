@@ -1,4 +1,5 @@
-"""Application layer package initialization.
+"""Application layer package initialization."""
 
-Contains application use cases, orchestration services, and command/query handlers.
-"""
+from application.services import ClientService
+
+__all__ = ["ClientService"]
